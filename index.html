@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Global Salary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Compare Global Salary Calculator</h1>
+        <p class="description">Hiring a team of employees for your business is crucial for your growth, but why would you pay more when you can have quality, efficiency and savings? Now you can focus on growing your business by doing your core tasks in your operations. Get an estimate with our free Compare Global Salary Calculator.</p>
+        
+        <div class="calculator-block">
+            <form id="salaryCalculator">
+                <label for="source">Source</label>
+                <select id="source" class="dropdown">
+                    <option value="Glassdoor">Glassdoor</option>
+                    <option value="Indeed">Indeed</option>
+                    <option value="ZipRecruiter">ZipRecruiter</option>
+                </select>
+                
+                <label for="position">Position</label>
+                <select id="position" class="dropdown">
+                    <option value="Customer Service Representative">Customer Service Representative</option>
+                </select>
+                
+                <label for="businessCountry">Country of Business</label>
+                <select id="businessCountry" class="dropdown">
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                </select>
+                
+                <label for="offshoreCountry">Offshoring Country</label>
+                <select id="offshoreCountry" class="dropdown">
+                    <option value="Philippines">Philippines</option>
+                </select>
+                
+                <div class="buttons">
+                    <button type="button" id="calculate" class="calculate-btn">Calculate</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="result-block">
+            <h2>Estimate Results:</h2>
+            <p id="result"></p>
+        </div>
+
+        <div class="disclaimer">
+            <p>Disclaimer: This aims to give you an average estimate based on online sources. The tool may display inaccurate or offensive material that doesn’t represent Enshored views. You’re solely responsible for use of any content generated using this tool, including its compliance with applicable laws and third-party rights.</p>
+        </div>
+
+        <div class="about">
+            <h2>What is Compare Global Salary Calculator?</h2>
+            <p>This tool provides a quick estimate of salary comparison between different countries for outsourcing options, helping businesses save on costs by hiring offshore employees.</p>
+
+            <h2>How does this Compare Global Salary Calculator work?</h2>
+            <p>By selecting a data source, position, business country, and offshoring country, this calculator compares the average salaries and provides an estimated savings figure.</p>
+
+            <h2>How to use this Compare Global Salary Calculator?</h2>
+            <p>Select the source, position, country of business, and offshoring country from the dropdowns, and then click 'Calculate' to view the estimated savings.</p>
+
+            <h2>5 Offshoring best practices</h2>
+            <ul>
+                <li>1. Identify key roles to offshore for maximum savings.</li>
+                <li>2. Ensure quality control measures are in place.</li>
+                <li>3. Choose a reliable offshoring partner.</li>
+                <li>4. Communicate clearly with your offshore team.</li>
+                <li>5. Use performance metrics to track efficiency.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

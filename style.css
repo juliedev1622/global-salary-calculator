@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #ffffff;
+    color: #1d364e;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Set text size to 16px */
+    line-height: 29px; /* Set line height to 29px */
+    margin-bottom: 2em; /* Double space (add margin after paragraphs) */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: #e83760;
+    text-align: center;
+    font-weight: bold; /* Make the title bold */
+    font-size: 48px; /* Set font size to 48px */
+     line-height: 58px; /* Set line height to 58px */
+}
+
+.description {
+    font-family: 'Lora', serif;
+    color: #1d364e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator-block {
+    background-color: #1d364e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #1d364e;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    color: #e83760;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculate-btn, .reset-btn {
+    background-color: #e83760;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.result-block {
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1d364e;
+    font-weight: bold; /* Make the subtitle bold */
+    font-size: 24px; /* Set font size to 24px for h2 */
+    line-height: 29px; /* Set line height to 29px */
+}
+
+.disclaimer, .about {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+p {
+    margin-bottom: 2em !important;
+}
